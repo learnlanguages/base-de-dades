@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			LALALALA
+		</title>
+		<script type="text/javascript">
+			function cargador(){
+				var lienzo = document.getElementById ('lienzo');
+				var lienzo1 = lienzo.getContext('2d');
+				lienzo1.fillStyle = "rgba(0, 0, 200, 1)";
+				lienzo1.fillRect(45, 50, 35, 100);
+
+				/*triangulos con lineas
+				lienzo1.beginPath();
+				lienzo1.strokeStyle = "rgba(0, 0, 200, 0.8)";
+				lienzo1.moveTo(200, 405);
+				lienzo1.lineTo(200, 175);
+				lienzo1.lineTo(60, 405);
+				lienzo1.closePath();
+				lienzo1.stroke();
+
+				lienzo1.fill();*/
+
+
+			}
+		</script>
+	</head>
+	<body onload="cargador()">
+		<h1>Ejemplo de canvas</h1>
+		<canvas id="lienzo" heigth="500px" width="600px">
+		</canvas>
+	</body>
+
+</html>
